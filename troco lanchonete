@@ -1,0 +1,12 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real valor_conta,valor_pago,valor_troco
+		leia(valor_conta)
+		leia(valor_pago)
+		valor_troco = valor_pago - valor_conta 
+		escreva("troco de Daniel e", valor_troco)
+	}
+}
